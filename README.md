@@ -9,6 +9,12 @@ census_FFNN_Fairness:
 Fairness optimization experiment of FFNN based on census dataset.
 
 ```
+bank_FFNN_Fairness
+```
+
+Fairness optimization experiment of FFNN based on bank dataset.
+
+```
 Jigsaw_RNN_Fairness:
 ```
 
@@ -23,6 +29,7 @@ Expand the types of validation properties that can be optimized and optimize the
 | Dataset |  NN  |  Property  |
 | :-----: | :--: | :--------: |
 | census  | FFNN |  Fairness  |
+|  bank   | FFNN |  Fairness  |
 | Jigsaw  | RNN  |  Fairness  |
 |  MNIST  | CNN  | Robustness |
 
@@ -95,6 +102,10 @@ retrainCalFairness.py
 ```
 
 Testing the method of re -training on optimizing the fairness of neural networks.
+
+## bank_FFNN_Fairness
+
+The fairness experiment of the Bank dataset has the same code structure and runs in the same way as the Census dataset.
 
 ## Jigsaw_RNN_Fairness
 
