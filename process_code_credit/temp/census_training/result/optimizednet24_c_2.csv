@@ -1,2 +1,0 @@
-raw_net,optimized_net,optimized_para_count,raw_fairness,optimized_fairness,raw_acc,optimized_acc
-census.pt,result/optimizednet24_c_2.pt,24,0.1381,0.0014,0.839851517963675,0.7565955190242609
